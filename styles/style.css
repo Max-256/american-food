@@ -223,4 +223,29 @@ p{
     color: white;
     text-transform: uppercase;
     font-family: 'Alfa Slab One';
+    white-space: nowrap;
+ }
+
+ /* showcase*/
+
+ .showcase{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 350px;
+    min-width: 300px;
+ }
+
+ .showcase__image{
+    width: 100%;
+ }
+
+ .showcase__heading{
+    white-space: nowrap;
+ }
+
+ .showcase__content{
+    text-align: center;
  }
