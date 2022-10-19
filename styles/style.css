@@ -157,6 +157,12 @@ p{
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .grid-1x3{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
  /* badge */
 
  .badge-container{
@@ -203,4 +209,18 @@ p{
     padding: 0 2rem;
     text-transform: uppercase;
     width: fit-content;
+ }
+
+ /* buttons */
+ .btn{
+    background: var(--color-accent);
+    width: fit-content;
+    padding: 1rem 2rem;
+ }
+
+ .btn a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One';
  }
