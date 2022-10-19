@@ -97,6 +97,9 @@ p{
 
 .burger__icon{
     margin-right: 8px;
+    background: var(--color-secondary);
+    width: 50px;
+    height: 50px;
 }
 
 /* delivery */
@@ -109,11 +112,22 @@ p{
     margin-right: 5px;
     width: 40px;
     height: 40px;
+    margin-top: 7px;
 }
 
 .delivery__number{
     color: var(--color-heading);
-    margin-top: 5px;
+    margin-top: 10px;
+    font-family: 'Bebas Neue';
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 380px) {
+    .icon__heading{
+        font-size: 2rem;
+        line-height: 1.1;
+    }
 }
 
 /* list */
@@ -350,4 +364,11 @@ p{
 
 .collapsible--expanded .collapsible__content{
    max-height: 100vh;
+}
+
+/* top section */
+
+.top-line{
+    display: flex;
+    justify-content: space-between;
 }
