@@ -147,6 +147,10 @@ p{
     display: grid;
 }
 
+.grid--2x1{
+    grid-template-rows: repeat(2, 1fr);
+}
+
 @media screen and (min-width: 768px) {
     .grid--1x2{
         grid-template-columns: repeat(2, 1fr);
@@ -187,4 +191,16 @@ p{
  .only{
     letter-spacing: 5px;
     margin-top: -18px;
+ }
+
+ /* tagline */
+
+ .tagline{
+    background: var(--color-secondary);
+    color: var(--color-heading);
+    font-family: 'Bebas Neue';
+    margin-bottom: 0;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    width: fit-content;
  }
