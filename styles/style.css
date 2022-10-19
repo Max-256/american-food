@@ -77,3 +77,18 @@ p{
         font-size: 2rem;
     }
 }
+
+/* loggo */
+.logo{
+    display: flex;
+}
+
+.icon__heading{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.burger__icon{
+    margin-right: 8px;
+    width: 50px;
+}
