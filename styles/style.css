@@ -372,3 +372,19 @@ p{
     display: flex;
     justify-content: space-between;
 }
+
+/*menu block*/
+
+.menu{
+    text-align: end;
+}
+
+.menu .list{
+    text-align: center;
+    padding: 0 4rem;
+}
+
+.menu .list__item{
+    border-bottom: 1px solid var(--color-heading);
+    margin-bottom: 2rem;
+}
