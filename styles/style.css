@@ -1,7 +1,79 @@
 :root{
-    --color-primary: #ffc567;
-    --color-secondary: #ffc045;
     --color-accent: #bf2222;
     --color-body: #717171;
     --color-heading: #3d2514;
+    --color-primary: #ffc567;
+    --color-secondary: #ffc045;
+}
+
+*, 
+*::after, 
+*::before{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* Typography */
+
+body{
+    font-family: Montserrat, system-ui, -apple-system, 
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.2rem;
+    color: var(--color-body);
+    line-height: 1.5;
+}
+
+ h1,
+ h2, 
+ h3{
+    font-family: "Alfa Slab One", system-ui,-apple-system, 
+    BlinkMacSystemFont,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--color-heading);
+    line-height: 0.5;
+    margin-bottom: 1rem;
+}
+
+h3{
+    font-family: 'Bebas Neue', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+    sans-serif;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+p{
+    margin-top: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    body{
+        font-size: 1.6rem;
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
 }
