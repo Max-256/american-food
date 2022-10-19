@@ -249,3 +249,10 @@ p{
  .showcase__content{
     text-align: center;
  }
+
+
+ /* card */
+ .card{
+    box-shadow: 10px 10px 30px 10px rgb(241, 240, 240);
+    padding: 0.5rem 1rem;
+ }
