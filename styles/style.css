@@ -309,3 +309,18 @@ p{
     padding-top: 10px;
     width: 30px;
  }
+
+ /* blocks */
+
+ .block{
+    width: 100%;
+ }
+
+ .block--secondary{
+    background: var(--color-secondary);
+ }
+
+ .container{
+    margin: 0 auto;
+    max-width: 1140px;
+ }
