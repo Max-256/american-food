@@ -218,6 +218,10 @@ p{
     padding: 1rem 2rem;
  }
 
+ .btn-stretched{
+    width: 100%;
+ }
+
  .btn a{
     text-decoration: none;
     color: white;
@@ -255,4 +259,23 @@ p{
  .card{
     box-shadow: 10px 10px 30px 10px rgb(241, 240, 240);
     padding: 0.5rem 1rem;
+ }
+
+
+ /* input */
+ 
+ ::placeholder{
+    font-family: 'Bebas Neue';
+    opacity: 0.3;
+ }
+
+ .input{
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    outline: 0;
+    padding: 1rem 2rem;
+ }
+
+ .input:focus{
+    border: 3px solid skyblue;
  }
