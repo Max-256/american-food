@@ -78,6 +78,13 @@ p{
     }
 }
 
+
+/* icon */
+.icon{
+    width: 50px;
+}
+
+
 /* loggo */
 .logo{
     display: flex;
@@ -90,5 +97,21 @@ p{
 
 .burger__icon{
     margin-right: 8px;
-    width: 50px;
+}
+
+/* delivery */
+
+.delivery{
+    display: flex;
+}
+
+.delivery__icon{
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.delivery__number{
+    color: var(--color-heading);
+    margin-top: 5px;
 }
