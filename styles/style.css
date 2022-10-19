@@ -324,3 +324,30 @@ p{
     margin: 0 auto;
     max-width: 1140px;
  }
+
+ /* collapsibles */
+
+.collapsible__header{
+   display: flex;
+   justify-content: space-between;
+}
+
+.collapsible__chevron{
+   width: 30px;
+   transform: rotate(-90deg);
+   transition: transform 0.3s;
+}
+
+.collapsible__content{
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.3s;
+}
+
+.collapsible--expanded .collapsible__chevron{
+   transform: rotate(0);
+}
+
+.collapsible--expanded .collapsible__content{
+   max-height: 100vh;
+}
