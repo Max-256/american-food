@@ -279,3 +279,18 @@ p{
  .input:focus{
     border: 3px solid skyblue;
  }
+
+ /* tags */
+ .tag{
+    display: flex;
+ }
+
+ .tag__text{
+    font-family: 'Bebas Neue';
+    margin-top: 15px;
+ }
+
+ .tag__icon{
+    margin-right: 15px;
+    width: 50px;
+ }
