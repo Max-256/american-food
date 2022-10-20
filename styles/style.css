@@ -494,3 +494,16 @@ p{
         width: 95%;
     }
 }
+
+/* callout*/
+.callout{
+    text-align: center;
+}
+
+.callout__heading{
+    text-transform: uppercase;
+}
+
+.callout .tagline{
+    margin: 0 auto;
+}
