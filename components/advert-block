@@ -1,0 +1,38 @@
+<section class="block">
+  <div class="container grid grid--1x2 advert">
+    <div class="popular">
+      <img
+        class="popular-burger"
+        src="/images/bg__two.webp"
+        alt="most popular burger"
+      />
+      <div class="txt">
+        <p class="try-it-today">try it today</p>
+        <p>most popular burger</p>
+      </div>
+    </div>
+
+    <div class="grid--2x1">
+      <div class="popular">
+        <img class="more-fun" src="/images/bg__three.webp" alt="more fun" />
+        <div class="txt">
+          <p class="try-it-today">try it today</p>
+          <p>more fun</p>
+          <p>more taste</p>
+        </div>
+      </div>
+
+      <div class="popular">
+        <img
+          class="fresh-chili"
+          src="/images/bg__four.webp"
+          alt="fresh and chili"
+        />
+        <div class="txt">
+          <p class="try-it-today">try it today</p>
+          <p>fresh & chili</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
