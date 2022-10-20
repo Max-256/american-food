@@ -548,3 +548,17 @@ p{
         font-size: 3rem;
     }
 }
+
+/* reservation form */
+
+.form__inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 1rem;
+}
+
+.form__inputs .btn{
+    text-align: center;
+    border-radius: 7px;
+}
