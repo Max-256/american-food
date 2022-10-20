@@ -536,3 +536,15 @@ p{
 .callout__text{
     padding-right: 3rem;
 }
+
+/* reservation */
+
+.reservation{
+    text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+    .reserve{
+        font-size: 3rem;
+    }
+}
