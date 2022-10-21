@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="welcome to the best restaurant for american food"
+    />
+    <meta property="og:title" content="the exceptional burger house" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="americanfood.com" />
     <title>American Food</title>
     <link rel="stylesheet" href="/styles/normalize.css" />
     <link rel="stylesheet" href="/styles/style.css" />
@@ -13,8 +20,318 @@
       href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
+    <header>
+      <section class="block block--secondary">
+        <div class="container top-line">
+          <div
+            class="logo"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="800"
+          >
+            <img
+              src="/images/icon.webp"
+              alt="burger icon"
+              class="icon burger__icon"
+            />
+            <h3 class="icon__heading">BURGER HOUSE</h3>
+          </div>
+          <div
+            class="delivery"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="800"
+          >
+            <img
+              src="/images/new-delivery-icon.webp"
+              alt=""
+              class="icon delivery__icon"
+            />
+            <p class="delivery__number">+256-774159449</p>
+          </div>
+        </div>
+      </section>
+      <div class="block block--secondary">
+        <div class="container">
+          <ul class="list list__inline nav">
+            <li data-aos="zoom-in-left" data-aos-duration="2000">
+              <a href="#">MENU</a>
+            </li>
+            <li data-aos="zoom-in-left" data-aos-duration="2000">
+              <a href="#">OUR STORY</a>
+            </li>
+            <li data-aos="zoom-in-left" data-aos-duration="2000">
+              <a href="#">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="block block--secondary intro">
+      <div class="container grid grid--1x2 intro-section">
+        <div class="introduction" data-aos="zoom-in" data-aos-duration="2000">
+          <p class="opening">its a good time for the great taste of burgers</p>
+          <h1>burger</h1>
+          <h2>week</h2>
+        </div>
+        <div class="image-section" data-aos="zoom-in" data-aos-duration="2000">
+          <img
+            class="intro__image"
+            src="/images/acel.webp"
+            alt="burger with a cold drink"
+          />
+          <div class="badge-container sale-badge">
+            <div class="badge">
+              <span class="price">$5</span><span class="point">.49</span>
+              <p class="only">ONLY</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="block">
+      <div class="container grid grid--1x2 advert">
+        <div class="popular" data-aos="zoom-out-up" data-aos-duration="3000">
+          <img
+            class="popular-burger"
+            src="/images/bg__two.webp"
+            alt="most popular burger"
+          />
+          <div class="txt">
+            <p class="try-it-today">try it today</p>
+            <p>most popular burger</p>
+          </div>
+        </div>
+
+        <div class="grid--2x1">
+          <div class="popular" data-aos="zoom-out-up" data-aos-duration="3000">
+            <img class="more-fun" src="/images/bg__three.webp" alt="more fun" />
+            <div class="txt">
+              <p class="try-it-today">try it today</p>
+              <p>more fun</p>
+              <p>more taste</p>
+            </div>
+          </div>
+
+          <div class="popular" data-aos="zoom-out-up" data-aos-duration="3000">
+            <img
+              class="fresh-chili"
+              src="/images/bg__four.webp"
+              alt="fresh and chili"
+            />
+            <div class="txt">
+              <p class="try-it-today">try it today</p>
+              <p>fresh & chili</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="block">
+      <div class="container callout">
+        <div class="tagline" data-aos="flip-right" data-aos-duration="3000">
+          <p>Always tasty burger</p>
+        </div>
+        <h2
+          class="callout__heading"
+          data-aos="flip-left"
+          data-aos-duration="3000"
+        >
+          choose & enjoy
+        </h2>
+        <p data-aos="fade-up" data-aos-duration="3000">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem, sunt reprehenderit. Eligendi temporibus laborum
+          perspiciatis quis in deserunt architecto ipsa!
+        </p>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="container grid grid--1x2 grid-1x3 showcase-block">
+        <div
+          class="showcase"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="3000"
+        >
+          <div>
+            <img class="showcase__image" src="/images/bg__seven.webp" alt="" />
+          </div>
+          <div class="showcase__content">
+            <h3 class="showcase__heading">Lorem, ipsum dolor.</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. In,
+              ducimus!
+            </p>
+          </div>
+          <div class="btn">
+            <a href="#">order now</a>
+          </div>
+        </div>
+
+        <div class="showcase" data-aos="fade-up" data-aos-duration="3000">
+          <div>
+            <img class="showcase__image" src="/images/abicel.webp" alt="" />
+          </div>
+          <div class="showcase__content">
+            <h3 class="showcase__heading">Lorem, ipsum dolor.</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. In,
+              ducimus!
+            </p>
+          </div>
+          <div class="btn">
+            <a href="#">order now</a>
+          </div>
+        </div>
+
+        <div
+          class="showcase"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="3000"
+        >
+          <div>
+            <img class="showcase__image" src="/images/bg__seven.webp" alt="" />
+          </div>
+          <div class="showcase__content">
+            <h3 class="showcase__heading">Lorem, ipsum dolor.</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. In,
+              ducimus!
+            </p>
+          </div>
+          <div class="btn">
+            <a href="#">order now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="block">
+      <div
+        class="container card grid grid--1x2 card-assembly"
+        data-aos="zoom-in"
+        data-aos-duration="3000"
+      >
+        <div>
+          <p class="discover">DISCOVER</p>
+          <p class="events">UPCOMING EVENTS</p>
+          <p class="callout__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            quisquam quis iusto reiciendis hic expedita enim voluptatem
+            voluptatibus facilis sed unde fugiat laboriosam quasi, reprehenderit
+            iure sequi repellat. Repudiandae, aliquid aperiam! Quos debitis
+            neque alias atque voluptate necessitatibus ad aspernatur.
+          </p>
+        </div>
+        <img class="callout__image" src="/images/bg__eight.jpeg" alt="" />
+      </div>
+    </div>
+
+    <section class="block">
+      <div
+        class="container reservation"
+        data-aos="zoom-in-up"
+        data-aos-duration="3000"
+      >
+        <p class="discover">RESERVATION</p>
+        <h2 class="reserve reserve-assembly">BOOK YOUR TABLE</h2>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="container grid grid--1x2 form-assembly">
+        <div
+          class="grid grid--1x2 form__inputs"
+          data-aos="zoom-in-right"
+          data-aos-duration="3000"
+        >
+          <input class="input" type="text" placeholder="name" />
+          <input class="input" type="date" />
+          <input class="input" type="number" />
+        </div>
+        <div
+          class="form__inputs"
+          data-aos="zoom-in-left"
+          data-aos-duration="3000"
+        >
+          <input class="input" type="email" placeholder="email" />
+          <input class="input" type="time" />
+          <div class="btn btn-stretched">
+            <a href="#">find a table</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block footer">
+      <div class="container grid grid--1x2 contact">
+        <div class="left" data-aos="zoom-out-right" data-aos-duration="3000">
+          <div class="logo">
+            <img
+              src="/images/icon.webp"
+              alt="burger icon"
+              class="icon burger__icon"
+            />
+            <h3 class="icon__heading">BURGER HOUSE</h3>
+          </div>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            totam blanditiis provident, voluptas beatae earum quos quam ratione
+            laborum deserunt doloremque non, commodi eius eum quaerat atque!
+            Debitis
+          </p>
+        </div>
+
+        <div data-aos="zoom-out-right" data-aos-duration="3000">
+          <div class="tag tg-location">
+            <img class="tag__icon lok" src="/images/lokeshon.webp" alt="" />
+            <p class="tag__text">APOLLO road, KAMPALA, UGANDA</p>
+          </div>
+          <div class="tag">
+            <img class="tag__icon" src="/images/mail.webp" alt="" />
+            <p class="tag__text awel">awel@info.org</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="block last-block">
+      <div class="container grid grid--1x2 footer-content">
+        <div class="copy">awel &copy; 2022 copyright</div>
+        <div class="follow-us">
+          <div class="footer__icon-container">
+            <img class="footer__icon" src="/images/instagram.jpeg" alt="" />
+          </div>
+          <div class="footer__icon-container">
+            <img class="footer__icon" src="/images/book.png" alt="" />
+          </div>
+          <div class="footer__icon-container">
+            <img class="footer__icon" src="/images/twitter.png" alt="" />
+          </div>
+          <div class="footer__icon-container">
+            <img class="footer__icon" src="/images/sap.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
