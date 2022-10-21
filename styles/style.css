@@ -623,3 +623,29 @@ p{
         margin-right: 10rem;
     }
 }
+
+/* last block */
+
+.follow-us{
+    display: flex;
+    gap: 10px;
+}
+
+.last-block{
+    background: var(--color-primary);
+}
+
+.footer-content{
+    padding: 2rem 0;
+}
+
+.copy{
+    color: #fff;
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+    .follow-us{
+        justify-self: end;
+    }
+}
