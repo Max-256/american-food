@@ -427,7 +427,7 @@ p{
 
 @media screen and (max-width: 768px) {
     .opening{
-        
+        font-size: small;
     }      
 }
 
